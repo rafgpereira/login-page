@@ -1,6 +1,19 @@
 # Página de Login Estática
 
-Esta é uma demonstração de uma página de login estática, produzida com HTML e CSS.
+Esta é uma demonstração de uma página de login estática, produzida com HTML e CSS para fins de estudo.
+
+## Conteúdos Aplicados
+
+### HTML
+
+- Estrutura semântica de tags
+
+### CSS
+
+- Conceito e aplicação de BoxModel
+- Conceito e aplicação de FlexBox
+- Responsividade com Media Queries
+- Padrão de nomenclatura de classes BEM
 
 ## Demonstração
 
