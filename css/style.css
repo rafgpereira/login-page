@@ -1,0 +1,146 @@
+body{
+    background-color: #c9bcd0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+.login{
+    background-color: #ffffff; 
+    display: flex;
+    width: 90%;
+    max-width: 1000px;
+    height: 90%;
+    border-radius: 15px;
+    box-shadow: 3px 3px 8px #00000033;
+
+}
+.login-info{
+    width: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.login-info__box{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+
+}
+.login-info__box__title{
+    font-size: 1.8rem;
+    font-family: Arial;
+    font-weight: bolder;
+    margin-bottom: 7%;
+}
+.login-info__box__instruction{
+    font-size: 1rem;
+    color: #565656;
+    font-family: arial;
+    margin-bottom: 15%;
+}
+.login-info__box h3{
+    font-size: 0.9rem;
+    font-family: arial;
+    color: #434343 ;
+    font-weight: bold;
+    margin: 15px 0 7px 0;
+}
+.login-info__box__email-input, .login-info__box__password-input{
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 13px;
+    border-color: #8d8d8d;
+    background-color: transparent;
+    font-family: arial;
+
+}
+.login-info__box__email-input:focus,.login-info__box__password-input:focus{
+    border: 2px solid #e7a3fa;
+    outline:none;
+}
+.login-info__box__help{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0 20px 0;
+    font-family: arial;
+}
+.login-info__box__help__remember{
+    display: flex;
+}
+.login-info__box__help a{
+    text-decoration: none;
+    color: #D170EF;
+    font-weight: 700;
+    font-size: 0.8rem;
+    
+}
+.login-info__box__help p{
+    color: #565656;
+    font-size: 0.8rem;
+    margin-right: 3px;
+}
+.login-info__box__signin-input{
+    margin:10px 0 10px 0;
+    padding: 13px;
+    font-size: 1rem;
+    font-style: arial;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #e7a3fa;
+    border: none;
+    border-radius: 8px;
+    cursor:pointer;
+}
+.login-info__box__signin-input:hover{
+    background-color: #D170EF;
+}
+.login-info__box__google-input{
+    display: flex;
+    justify-content: center;
+    margin:5px 0 10px 0;
+    padding: 13px;
+    font-size: 1rem;
+    font-style: arial;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #e7a3fa;
+    border: none;
+    border-radius: 8px;
+    cursor:pointer;
+}
+.login-info__box__google-input:hover{
+    background-color: #D170EF;
+}
+.login-info__box__google-input img{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+.login-info__box__sign-up{
+    display: flex;
+    justify-content: center;
+    font-family: arial;
+    font-size: 0.9rem;
+    color: #565656;
+    margin-top: 20px;
+}
+.login-info__box__sign-up a{
+    text-decoration: none;
+    color: #D170EF;
+    font-weight: 700;
+}
+.login-image{
+    width: 50%;
+    background-color:#f1d1fa;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 15px 15px 0;
+}
+img{
+    width: 100%;
+}
