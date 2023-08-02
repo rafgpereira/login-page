@@ -83,7 +83,7 @@ body{
     font-size: 0.8rem;
     margin-right: 3px;
 }
-.login-info__box__signin-input{
+.login-info__box__signin-button{
     margin:10px 0 10px 0;
     padding: 13px;
     font-size: 1rem;
@@ -95,10 +95,10 @@ body{
     border-radius: 8px;
     cursor:pointer;
 }
-.login-info__box__signin-input:hover{
+.login-info__box__signin-button:hover{
     background-color: #D170EF;
 }
-.login-info__box__google-input{
+.login-info__box__google-button{
     display: flex;
     justify-content: center;
     margin:5px 0 10px 0;
@@ -112,10 +112,10 @@ body{
     border-radius: 8px;
     cursor:pointer;
 }
-.login-info__box__google-input:hover{
+.login-info__box__google-button:hover{
     background-color: #D170EF;
 }
-.login-info__box__google-input img{
+.login-info__box__google-button img{
     height: 20px;
     width: 20px;
     margin-right: 10px;
@@ -143,4 +143,28 @@ body{
 }
 img{
     width: 100%;
+}
+
+
+@media (max-width: 800px){
+    .login-info{
+        width: 100%;
+    }
+    .login-info__box__signin-button{
+        font-size: 0.9rem;
+    }
+    .login-info__box__google-button{
+        font-size: 0.9rem;
+    }
+    .login-info__box__google-button img{
+        height: 15px;
+        width: 15px;
+        margin-right: 10px;
+    }
+    .login-image{
+        width: 0;
+    }
+    img{
+        width: 0;
+    }
 }
