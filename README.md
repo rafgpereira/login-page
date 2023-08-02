@@ -4,7 +4,11 @@ Esta é uma demonstração de uma página de login estática, produzida com HTML
 
 ## Demonstração
 
+### Página Web
+
 ![Página Web](img/prints/login-page-web.png)
+
+### Página Mobile
 
 ![Página Mobile](img/prints/login-page-mobile.png)
 
