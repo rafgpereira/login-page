@@ -15,6 +15,10 @@ Esta é uma demonstração de uma página de login estática, produzida com HTML
 - Responsividade com Media Queries
 - Padrão de nomenclatura de classes BEM
 
+### Deployment
+
+- Deploy no Netlify para hospedagem e disponibilização online
+
 ## Demonstração
 
 Clique [aqui](https://loginpage-rafgpereira.netlify.app/) para acessar a página online ou veja as capturas de tela abaixo.
