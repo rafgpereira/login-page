@@ -145,8 +145,10 @@ img{
     width: 100%;
 }
 
-
 @media (max-width: 800px){
+    .login{
+        height: 85%;
+    }
     .login-info{
         width: 100%;
     }
